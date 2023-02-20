@@ -4,6 +4,7 @@ import certificate from "../../imgs/certificate.png"
 import person from "../../imgs/ibm10.png"
 import { motion } from "framer-motion"
 import { fadeIn, staggerContainer, slideIn } from "../../utils/motion"
+import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai'
 
 const Hero = () => {
     return (
@@ -46,12 +47,17 @@ const Hero = () => {
                 </motion.div>
 
                 {/* person email */}
-                <a
-                    className={css.email}
-                    href="mailto:linktoibrahim@gmail.com"
-                >
-                    linktoibrahim@gmail.com
-                </a>
+                <div className={css.email}>
+                    <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn">
+                        <AiFillLinkedin size={"40px"} style={{ color: "blue" }} />
+                    </a>
+                    <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github">
+                        <AiFillGithub size={"40px"} style={{ color: "black" }} />
+                    </a>
+                    <a target={"_blank"} href="https://wa.me/+923107739779" rel="noopener noreferrer" title="WhatsApp">
+                        <AiOutlineWhatsApp size={"40px"} style={{ color: "green" }} />
+                    </a>
+                </div>
 
                 {/* Lower Elements */}
                 <div className={css.lowerElements}>

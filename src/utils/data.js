@@ -5,20 +5,20 @@ import { MdWorkspacesOutline } from "react-icons/md";
 
 export const projectExperience = [
   {
-    name: "WebApp Design",
-    projects: 76,
+    name: "React Applications",
+    projects: 9,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Responsive Websites",
+    projects: 17,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "React Applications with Firebase",
+    projects: 3,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -31,91 +31,28 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
+    company: "Orbix Technologies",
     place: "Lahore, Punjab, Pakistan",
     tenure: "Jan 2021 - July 2021",
     role: "React Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Developed the latest user-facing features using React.js and built reusable components & front-end libraries for future use. Optimized components for maximum performance across a vast array of web-capable devices and browsers",
   },
   {
+    company: "Pak Developers",
     place: "Lahore, Punjab, Pakistan",
-    tenure: "July 2021 - Present",
+    tenure: "July 2021 - Nov 2022",
     role: "Front-end Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Created features to enhance the user experience while ensuring that the web design is optimized for smartphones. Employed a variety of languages such as HTML, CSS, JavaScript and React.Js to write & create user-friendly web pages",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    company: "Global Scope Developers",
+    place: "Jhang, Punjab, Pakistan",
+    tenure: "Nov 2022 - Present",
+    role: "React Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-];
-
-export const comments = [
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "../imgs/people2.png",
+      "Coordinated with the development team of 11 to discuss user interface ideas and applications. Reviewed application requirements and interface designs to ensure compatibility with existing applications",
   },
 ];
 

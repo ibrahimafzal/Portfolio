@@ -1,0 +1,10 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    .container{
+        .flexBetween{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

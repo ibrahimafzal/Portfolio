@@ -30,6 +30,8 @@ const Works = () => {
                                     key={idx}
                                 >
                                     <div className={css.post}>
+                                        <h1>{exp.company}</h1>
+                                        <hr style={{width:"90px"}}/>
                                         <h1>{exp.place}</h1>
                                         <p className="">{exp.tenure}</p>
                                     </div>

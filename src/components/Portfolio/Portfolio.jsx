@@ -2,9 +2,9 @@ import React from 'react';
 import css from "./Portfolio.module.scss"
 import { motion } from "framer-motion"
 import { fadeIn, staggerChildren } from "../../utils/motion"
-import ShowCase1 from "../../imgs/showCase1.png"
-import ShowCase2 from "../../imgs/showCase2.png"
-import ShowCase3 from "../../imgs/showCase3.png"
+import ShowCase1 from "../../imgs/w1.png"
+import ShowCase2 from "../../imgs/w2.png"
+import ShowCase3 from "../../imgs/w3.png"
 
 const Portfolio = () => {
     return (
