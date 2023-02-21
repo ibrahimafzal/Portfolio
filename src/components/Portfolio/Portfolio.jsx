@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <div className={`flexCenter ${css.heading}`}>
                     <div>
                         <span className='primaryText'>My Latest Works</span>
-                        <p style={{ marginTop: "10px" }}>Perfect solution for Web developing experience</p>
+                        <p style={{ marginTop: "15px" }}>Here checkout my projects I've completed recently.</p>
                     </div>
 
                     <span className='secondaryText'>Explore More Works</span>

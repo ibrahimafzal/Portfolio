@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Experties.module.scss"
-import { projectExperience, WhatDoIHelp } from "../../utils/data";
+import { projectExperience } from "../../utils/data";
 import { motion } from "framer-motion"
 import { fadeIn, staggerContainer, textVariant } from "../../utils/motion"
 
@@ -21,8 +21,8 @@ const Experties = () => {
                         projectExperience.map((exp, idx) => {
                             return (
                                 <motion.div
-                                variants={fadeIn("right", "tween", (idx+1)*0.2, .7)}
-                                className={css.exp} key={idx}
+                                    variants={fadeIn("right", "tween", (idx + 1) * 0.2, .7)}
+                                    className={css.exp} key={idx}
                                 >
                                     <div className='flexCenter' style={{ background: exp.bg }}>
                                         <exp.icon size={25} color="white" />
@@ -37,19 +37,20 @@ const Experties = () => {
                     }
                 </div>
                 <motion.div
-                variants={textVariant(0.5)}
-                className={css.rightSide}
+                    variants={textVariant(0.5)}
+                    className={css.rightSide}
                 >
                     <span className="primaryText">What do I help?</span>
-                    {
-                        WhatDoIHelp.map((paragraph, idx) => {
-                            return (
-                                <span className='secondaryText' key={idx}>
-                                    {paragraph}
-                                </span>
-                            )
-                        })
-                    }
+                                <div>
+                                    <p className='secondaryText'>
+                                        I will help you with problem-solving and creating efficient, user-friendly applications. I have much experience in making an attractive and responsive websites
+                                        with <a href="#skills" style={{ color: "orange" }} title="Click it here to view my skills">My Skills</a>, and also know about the Customization.
+                                    </p>
+                                    <p className='secondaryText'>
+                                        I am always looking to learn new technologies and stay ahead of the curve. I am a team player,
+                                        and I enjoy collaborating with others to build successful products.
+                                    </p>
+                                </div>
                     <div className={`flexCenter ${css.stats}`}>
                         <div className={`flexCenter ${css.stat}`}>
                             <span className='primaryText'>20+</span>

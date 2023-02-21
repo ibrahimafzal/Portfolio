@@ -22,9 +22,9 @@ const Skills = () => {
         <div className={`flexCenter cssheading`}>
           <span className="primaryText">My Skills</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+          I've about one year and 6 months experience as a React.js developer using various technologies like HTML5, JavaScript, React.js and Git.
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>The purpose of education is to make good human beings with skill and expertise...</p>
         </div>
 
         <motion.div
@@ -68,12 +68,14 @@ const Skills = () => {
                       <li>HTML</li>
                       <li className="skillItem">JavaScript</li>
                       <li>React.Js</li>
+                      <li className="skillItem">Typescript</li>
                     </ul>
                   </div>
                   <div>
                     <ul className="skillUl">
-                      <li className="skillItem">CSS</li>
-                      <li>TailwindCSS</li>
+                      <li>CSS</li>
+                      <li className="skillItem">TailwindCSS</li>
+                      <li>Styled-Component</li>
                       <li className="skillItem">BootStrap</li>
                     </ul>
                   </div>
