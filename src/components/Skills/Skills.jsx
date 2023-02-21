@@ -1,6 +1,5 @@
 import React from "react";
 import css from "../People/People.module.scss";
-import css2 from "./Skills.module.scss";
 import { motion } from 'framer-motion'
 import { footerVariants, staggerChildren, fadeIn, textVariant } from "../../utils/motion";
 

@@ -41,11 +41,11 @@ const Header = () => {
                 className={`${css.menu} flexCenter`}
                 style={getMenuStyles(menuOpened)}
                 >
-                    <li><a href='#experties'>Services</a></li>
-                    <li><a href='#work'>Experience</a></li>
-                    <li><a href='#portfolio'>Portfolio</a></li>
-                    <li><a href='#people'>Testimonials</a></li>
-                    <li className={`flexCenter ${css.phone}`}>
+                    <li onClick={() => setMenuOpened(false)}><a href='#experties'>Services</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#work'>Experience</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#portfolio'>Portfolio</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#people'>Testimonials</a></li>
+                    <li onClick={() => setMenuOpened(false)} className={`flexCenter ${css.phone}`}>
                         <p>+92 310 7739 779</p>
                         <BiPhoneCall size={"40px"} />
                     </li>

@@ -25,7 +25,7 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:linktoibrahim@gmail.com" title="Click on this to send email">saying hi</a>
+            Start by <a href="mailto:linktoibrahim@gmail.com" title='Please click on "saying hi"'>saying hi</a>
           </span>
           <span style={{display:"flex", gap:"20px", marginTop:"20px"}}>
             <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn">
