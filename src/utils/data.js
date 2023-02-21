@@ -28,14 +28,6 @@ export const workExp = [
   {
     company: "Orbix Technologies",
     place: "Lahore, Punjab, Pakistan",
-    tenure: "Jan 2021 - July 2021",
-    role: "React Developer",
-    detail:
-      "Developed the latest user-facing features using React.js and built reusable components & front-end libraries for future use. Optimized components for maximum performance across a vast array of web-capable devices and browsers",
-  },
-  {
-    company: "Pak Developers",
-    place: "Lahore, Punjab, Pakistan",
     tenure: "July 2021 - Nov 2022",
     role: "Front-end Developer",
     detail:
