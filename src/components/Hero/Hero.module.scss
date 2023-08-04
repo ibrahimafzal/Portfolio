@@ -9,7 +9,7 @@
         z-index: 1;
 
         .upperElements {
-            @media (max-width: $sm) {
+            @media (max-width: $md) {
                 justify-content: center;
                 text-align: center;
                 gap: 2rem;
@@ -88,6 +88,7 @@
 
                 margin-bottom: -5px;
                 padding-left: 30px;
+                width: 21rem;
             }
         }
 

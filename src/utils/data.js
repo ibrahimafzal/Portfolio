@@ -5,20 +5,20 @@ import { MdWorkspacesOutline } from "react-icons/md";
 
 export const projectExperience = [
   {
-    name: "React Applications",
-    projects: 9,
+    name: "Real React Applications",
+    projects: "3+",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Responsive Websites",
-    projects: 17,
+    name: "Test Websites in React.Js",
+    projects: '22+ ( Visit my Github repository)',
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "React Applications with Firebase",
-    projects: 3,
+    projects: '2+',
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -28,7 +28,7 @@ export const workExp = [
   {
     company: "Orbix Technologies",
     place: "Lahore, Punjab, Pakistan",
-    tenure: "July 2021 - Nov 2022",
+    tenure: "Jan 2022 - July 2022",
     role: "Front-end Developer",
     detail:
       "Created features to enhance the user experience while ensuring that the web design is optimized for smartphones. Employed a variety of languages such as HTML, CSS, JavaScript and React.Js to write & create user-friendly web pages",
@@ -36,10 +36,10 @@ export const workExp = [
   {
     company: "Global Scope Developers",
     place: "Jhang, Punjab, Pakistan",
-    tenure: "Nov 2022 - Present",
-    role: "React Developer",
+    tenure: "Nov 2022 - Jun 2023",
+    role: "MERN Stack Developer",
     detail:
-      "Coordinated with the development team of 11 to discuss user interface ideas and applications. Reviewed application requirements and interface designs to ensure compatibility with existing applications",
+      " I've spent the 8 months crafting dynamic and scalable web applications. Utilizing MongoDB, Express.js, React.js, and Node.js, I've contributed to building robust and user-friendly interfaces",
   },
 ];
 

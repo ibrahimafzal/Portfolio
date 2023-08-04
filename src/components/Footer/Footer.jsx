@@ -28,10 +28,10 @@ const Footer = () => {
             Start by <a href="mailto:linktoibrahim@gmail.com" title='Please click on "saying hi"'>saying hi</a>
           </span>
           <span style={{display:"flex", gap:"20px", marginTop:"20px"}}>
-            <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn">
+            <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel="noreferrer">
               <AiFillLinkedin size={"40px"} style={{ color: "blue" }} />
             </a>
-            <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github">
+            <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github" rel="noreferrer">
               <AiFillGithub size={"40px"} style={{ color: "black" }} />
             </a>
             <a target={"_blank"} href="https://wa.me/+923107739779" rel="noopener noreferrer" title="WhatsApp">
@@ -45,12 +45,13 @@ const Footer = () => {
             <span className="secondaryText" style={{ fontWeight: 800 }}>Information</span>
             <hr />
             <p style={{ marginTop: "10px" }}><span style={{ fontWeight: 800 }}>Address: </span> Satellite Town, Jhang, Punjab, Pakistan.</p>
+            <p style={{ marginTop: "10px" }}><span style={{ fontWeight: 800 }}>Postal Code: </span>35200</p>
           </div>
           <ul className={css.menu}>
             <li> <a href="#experties">SERVICES</a></li>
-            <li><a href="#portfolio">WORKS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#work">EXPERIENCE</a></li>
+            <li><a href="#work-experience">EXPERIENCE</a></li>
           </ul>
         </div>
       </motion.div>

@@ -15,7 +15,7 @@ const Portfolio = () => {
             viewport={{ once: false, amount: 0.25 }}
             className={`paddings ${css.wrapper}`}
         >
-            <a className="anchor" id="portfolio"></a>
+            <a className="anchor" id="projects"></a>
 
             <div className={`flexCenter innerWidth ${css.container}`}>
 
@@ -25,7 +25,11 @@ const Portfolio = () => {
                         <p style={{ marginTop: "15px" }}>Here checkout my projects I've completed recently.</p>
                     </div>
 
-                    <span className='secondaryText'>Explore More Works</span>
+                    <a href="https://github.com/ibrahimafzal?tab=repositories" target="_blank" rel=" noreferrer" title='Visit My GitHub Repository'>
+                        <span className='secondaryText'>
+                            Explore More Works
+                        </span>
+                    </a>
                 </div>
 
                 {/* images */}

@@ -42,12 +42,14 @@ const Header = () => {
                 style={getMenuStyles(menuOpened)}
                 >
                     <li onClick={() => setMenuOpened(false)}><a href='#experties'>Services</a></li>
-                    <li onClick={() => setMenuOpened(false)}><a href='#work'>Experience</a></li>
-                    <li onClick={() => setMenuOpened(false)}><a href='#portfolio'>Portfolio</a></li>
-                    <li onClick={() => setMenuOpened(false)}><a href='#people'>Testimonials</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#work-experience'>Experience</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#projects'>Projects</a></li>
+                    <li onClick={() => setMenuOpened(false)}><a href='#skills'>Skills</a></li>
                     <li onClick={() => setMenuOpened(false)} className={`flexCenter ${css.phone}`}>
                         <p>+92 310 7739 779</p>
+                    <a target={"_blank"} href="https://wa.me/+923107739779" rel="noopener noreferrer" title="WhatsApp">
                         <BiPhoneCall size={"40px"} />
+                    </a>
                     </li>
                 </ul>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./Hero.module.scss"
 import certificate from "../../imgs/certificate.png"
-import person from "../../imgs/ibm10.png"
+import person from "../../imgs/ib.png"
 import { motion } from "framer-motion"
 import { fadeIn, staggerContainer, slideIn } from "../../utils/motion"
 import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai'
@@ -29,9 +29,11 @@ const Hero = () => {
                         variants={fadeIn("left", "tween", 0.4, 1)}
                         className='secondaryText'
                     >
-                        I design beautiful simple
+                        Full Stack Web Developer with a passion
                         <br />
-                        things, And I love what i do
+                        Utilizing MongoDB, Express.js,
+                        <br />
+                        React.js, and Node.js
                     </motion.span>
                 </div>
 
@@ -43,15 +45,16 @@ const Hero = () => {
                     <motion.img
                         variants={slideIn("up", "tween", 0.3, 1.0)}
                         src={person} alt=""
+                        className=''
                     />
                 </motion.div>
 
                 {/* person email */}
                 <div className={css.email}>
-                    <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel='noreferrer noopener'>
                         <AiFillLinkedin size={"40px"} style={{ color: "blue" }} />
                     </a>
-                    <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github">
+                    <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github" rel='noreferrer noopener'>
                         <AiFillGithub size={"40px"} style={{ color: "black" }} />
                     </a>
                     <a target={"_blank"} href="https://wa.me/+923107739779" rel="noopener noreferrer" title="WhatsApp">
@@ -65,22 +68,26 @@ const Hero = () => {
                         variants={fadeIn("right", "tween", 0.3, 1)}
                         className={`${css.experience}`}
                     >
-                        <div className="primaryText">1.6</div>
+                        <div className="primaryText">2</div>
                         <div className="secondaryText">
-                            <div>
-                                Years
-                            </div>
-                            <div>Experience</div>
+                            <div>Years Experience</div>
+                            <div>MERN Stack Developer</div>
                         </div>
+
                     </motion.div>
-                    <motion.div
-                        variants={fadeIn("left", "tween", 0.5, 1)}
-                        className={`${css.certificate}`}
-                    >
-                        <img src={certificate} alt="certificate" />
-                        <span>CERTIFIED PROFESSIONAL</span>
-                        <span>UI/UX DESIGNER</span>
-                    </motion.div>
+
+                    {/* <motion.div
+                        variants={fadeIn("right", "tween", 0.3, 1)}
+                        className={`${css.experience}`}
+                    > */}
+                    {/* <div className="primaryText">One</div>
+                        <div className="secondaryText">
+                            <div>Months Backend Experience in</div>
+                            <div>Node.js , Express.js , MongoDB</div>
+                        </div> */}
+
+                    {/* </motion.div> */}
+
                 </div>
             </motion.div>
         </section>
