@@ -19,6 +19,6 @@ export default function useOutsideAlerter({menuRef, setMenuOpened}) {
       // Unbind the event listener on clean up
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [menuRef]);
+  }, [menuRef, setMenuOpened, viewport_width]);
 
 }

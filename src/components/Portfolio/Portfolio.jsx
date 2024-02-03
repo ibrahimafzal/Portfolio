@@ -34,9 +34,15 @@ const Portfolio = () => {
 
                 {/* images */}
                 <div className={`flexCenter ${css.showCase}`}>
-                    <motion.img variants={fadeIn("up", "tween", 0.5, 0.6)} src={ShowCase1} alt="project" />
-                    <motion.img variants={fadeIn("up", "tween", 0.7, 0.6)} src={ShowCase2} alt="project" />
-                    <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase3} alt="project" />
+                    <a href="https://app.ace-academy.nl" target='_blank' rel='noreferrer noopener'>
+                        <motion.img variants={fadeIn("up", "tween", 0.5, 0.6)} src={ShowCase1} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                    </a>
+                    <a href="https://dev.agilityup.ai/" target='_blank' rel='noreferrer noopener'>
+                        <motion.img variants={fadeIn("up", "tween", 0.7, 0.6)} src={ShowCase2} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                    </a>
+                    <a href="">
+                        <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase3} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                    </a>
                 </div>
             </div>
         </motion.section>

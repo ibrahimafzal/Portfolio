@@ -1,10 +1,10 @@
 import React from 'react'
 import css from "./Hero.module.scss"
-import certificate from "../../imgs/certificate.png"
 import person from "../../imgs/ib.png"
 import { motion } from "framer-motion"
 import { fadeIn, staggerContainer, slideIn } from "../../utils/motion"
 import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai'
+import { SiIndeed } from 'react-icons/si'
 
 const Hero = () => {
     return (
@@ -29,11 +29,11 @@ const Hero = () => {
                         variants={fadeIn("left", "tween", 0.4, 1)}
                         className='secondaryText'
                     >
-                        Full Stack Web Developer with a passion
+                        MERN Stack Developer || Full Stack Developer 
                         <br />
-                        Utilizing MongoDB, Express.js,
+                        Utilizing Next.js, React.js, Node.js
                         <br />
-                        React.js, and Node.js
+                        Express.js, and MongoDB
                     </motion.span>
                 </div>
 
@@ -44,15 +44,18 @@ const Hero = () => {
                 >
                     <motion.img
                         variants={slideIn("up", "tween", 0.3, 1.0)}
-                        src={person} alt=""
+                        src={person} alt="person"
                         className=''
                     />
                 </motion.div>
 
                 {/* person email */}
                 <div className={css.email}>
-                    <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel='noreferrer noopener'>
+                    <a href="https://www.linkedin.com/in/muhammad-ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel='noreferrer noopener'>
                         <AiFillLinkedin size={"40px"} style={{ color: "blue" }} />
+                    </a>
+                    <a target={"_blank"} href="https://profile.indeed.com/p/muhammadibrahima-fwlxp3k" rel="noopener noreferrer" title="WhatsApp">
+                        <SiIndeed size={"40px"} style={{ color: "Blue" }} />
                     </a>
                     <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github" rel='noreferrer noopener'>
                         <AiFillGithub size={"40px"} style={{ color: "black" }} />
@@ -68,26 +71,16 @@ const Hero = () => {
                         variants={fadeIn("right", "tween", 0.3, 1)}
                         className={`${css.experience}`}
                     >
-                        <div className="primaryText">2</div>
+                        <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+                            <span style={{fontSize:"0.8rem"}}>More than</span>
+                            <span className="primaryText" style={{lineHeight:1}}>One</span>
+                        </div>
                         <div className="secondaryText">
-                            <div>Years Experience</div>
-                            <div>MERN Stack Developer</div>
+                            <p>Year Experience</p>
+                            <p>MERN Stack / Full Stack Developer</p>
                         </div>
 
                     </motion.div>
-
-                    {/* <motion.div
-                        variants={fadeIn("right", "tween", 0.3, 1)}
-                        className={`${css.experience}`}
-                    > */}
-                    {/* <div className="primaryText">One</div>
-                        <div className="secondaryText">
-                            <div>Months Backend Experience in</div>
-                            <div>Node.js , Express.js , MongoDB</div>
-                        </div> */}
-
-                    {/* </motion.div> */}
-
                 </div>
             </motion.div>
         </section>

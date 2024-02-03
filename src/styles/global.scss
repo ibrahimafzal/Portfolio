@@ -92,6 +92,21 @@
   align-items: center;
 }
 
+.res {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res {
+  @media (max-width: $sm) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .flexStart {
   display: flex;
   justify-content: start;
@@ -140,9 +155,9 @@
   @media (max-width: $xsm) {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     padding-left: 12px;
     padding-right: 12px;
+    gap: 1rem;
   }
 }
 
@@ -168,7 +183,7 @@
 
 .primaryText {
   @media (max-width: $sm) {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
   font-size: 2.5rem;

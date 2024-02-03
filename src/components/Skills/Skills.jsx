@@ -10,7 +10,8 @@ const Skills = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      section className={`paddings ${css.wrapper}`}
+      section="true"
+      className={`paddings ${css.wrapper}`}
     >
 
       <a className="anchor" id="skills"></a>
@@ -22,10 +23,8 @@ const Skills = () => {
         <div className={`flexCenter cssheading`}>
           <span className="primaryText">My Skills</span>
           <p style={{ marginTop: "2rem" }}>
-          I've about <strong>2</strong> Years experience as a <b> MERN Stack Developer </b> using various technologies like Typescript, Redux and Git.
+            I've about <strong>more than 1</strong> Year experience as a <b> MERN Stack / Full Stack Developer </b> using various technologies which are showing below.
           </p>
-          {/* <p><strong>6</strong> months experience in Node.js, Express.js and MongoDB</p> */}
-          {/* <p>The purpose of education is to make good human beings with skill and expertise...</p> */}
         </div>
 
         <motion.div
@@ -41,18 +40,20 @@ const Skills = () => {
                   <ul className="skillUl">
                     <li>GitHub</li>
                     <li className="skillItem">Material-UI</li>
-                    <li>React-Icons</li>
+                    <li>Stripe (Payment Method)</li>
                     <li className="skillItem">Flowbites</li>
-                    <li>NPM</li>
+                    <li>Cloudinary (File Storage)</li>
+                    <li className="skillItem">Rest APIs</li>
                   </ul>
                 </div>
                 <div>
                   <ul className="skillUl">
-                    <li className="skillItem">Yarn</li>
-                    <li>OOP</li>
-                    <li className="skillItem">TailwindCSS</li>
-                    <li>Styled-Component</li>
-                    <li className="skillItem">Bootstrap 5</li>
+                    <li>Yarn</li>
+                    <li className="skillItem">OOP</li>
+                    <li>TailwindCSS</li>
+                    <li className="skillItem">Styled-Component</li>
+                    <li>Bootstrap 5</li>
+                    <li className="skillItem">Axios</li>
                   </ul>
                 </div>
               </div>
@@ -72,15 +73,17 @@ const Skills = () => {
                       <li className="skillItem">CSS</li>
                       <li>React.js</li>
                       <li className="skillItem">Redux Toolkit</li>
-                      <li>Typescript</li>
+                      <li style={{ marginBottom: "20px" }}>Next.js</li>
                     </ul>
                   </div>
                   <div>
                     <ul className="skillUl">
-                      <li className="skillItem">JavaScript</li>
+                      <li>JavaScript</li>
+                      <li className="skillItem">Typescript</li>
                       <li>Node.js</li>
                       <li className="skillItem">Express.js</li>
                       <li>MongoDB</li>
+                      <li className="skillItem">Ruby on Rails(2 months)</li>
                     </ul>
                   </div>
                 </div>

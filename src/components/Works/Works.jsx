@@ -5,6 +5,7 @@ import { fadeIn, staggerContainer, textVariant2, zoomIn } from "../../utils/moti
 import { workExp } from '../../utils/data'
 
 
+
 const Works = () => {
     return (
         <motion.section
@@ -26,18 +27,19 @@ const Works = () => {
                             return (
                                 <motion.div
                                     variants={textVariant2}
-                                    className={`flexCenter ${css.exp}`}
+                                    className={`res ${css.exp}`}
                                     key={idx}
                                 >
                                     <div className={css.post}>
                                         <h1>{exp.company}</h1>
-                                        <hr style={{width:"90px"}}/>
-                                        <h1>{exp.place}</h1>
-                                        <p className="">{exp.tenure}</p>
+                                        <hr style={{width:"19rem"}}/>
+                                        <h3 style={{color:"rgb(76 85 93)"}}>{exp.place}</h3>
+                                        <p>{exp.tenure}</p>
+                                        <p style={{lineHeight:"9px", color:"rgb(76 85 93)"}}>{exp.totalTime}</p>
                                     </div>
                                     <div className={css.tenure}>
                                         <h1>{exp.role}</h1>
-                                        <p className="">{exp.detail}</p>
+                                        <p className="work-details">{exp.detail}</p>
                                     </div>
                                 </motion.div>
                             )

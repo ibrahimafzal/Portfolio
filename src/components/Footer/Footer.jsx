@@ -3,6 +3,7 @@ import { footerVariants, staggerChildren } from "../../utils/motion";
 import css from "./Footer.module.scss";
 import { motion } from 'framer-motion'
 import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai'
+import { SiIndeed } from "react-icons/si";
 
 
 
@@ -25,11 +26,14 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:linktoibrahim@gmail.com" title='Please click on "saying hi"'>saying hi</a>
+            Start by <a href="mailto:linktoibrahim@gmail.com" title='click to send email'>saying hi</a>
           </span>
           <span style={{display:"flex", gap:"20px", marginTop:"20px"}}>
-            <a href="https://www.linkedin.com/in/ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/muhammad-ibrahim-afzal-552861257/" target={"_blank"} title="LinkedIn" rel="noreferrer">
               <AiFillLinkedin size={"40px"} style={{ color: "blue" }} />
+            </a>
+            <a target={"_blank"} href="https://profile.indeed.com/p/muhammadibrahima-fwlxp3k" rel="noopener noreferrer" title="WhatsApp">
+              <SiIndeed size={"40px"} style={{ color: "Blue" }} />
             </a>
             <a target={"_blank"} href="https://github.com/ibrahimafzal" title="Github" rel="noreferrer">
               <AiFillGithub size={"40px"} style={{ color: "black" }} />
@@ -44,8 +48,7 @@ const Footer = () => {
           <div className={css.info}>
             <span className="secondaryText" style={{ fontWeight: 800 }}>Information</span>
             <hr />
-            <p style={{ marginTop: "10px" }}><span style={{ fontWeight: 800 }}>Address: </span> Satellite Town, Jhang, Punjab, Pakistan.</p>
-            <p style={{ marginTop: "10px" }}><span style={{ fontWeight: 800 }}>Postal Code: </span>35200</p>
+            <p style={{ marginTop: "10px" }}><span style={{ fontWeight: 800 }}>Address: </span> Lahore, Punjab, Pakistan.</p>
           </div>
           <ul className={css.menu}>
             <li> <a href="#experties">SERVICES</a></li>
