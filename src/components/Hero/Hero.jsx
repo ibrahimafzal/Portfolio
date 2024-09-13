@@ -29,7 +29,7 @@ const Hero = () => {
                         variants={fadeIn("left", "tween", 0.4, 1)}
                         className='secondaryText'
                     >
-                        MERN Stack Developer || Full Stack Developer 
+                        MERN Stack Developer <span style={{color:"red"}}>/</span> Full Stack Developer 
                         <br />
                         Utilizing Next.js, React.js, Node.js
                         <br />
@@ -73,11 +73,11 @@ const Hero = () => {
                     >
                         <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                             <span style={{fontSize:"0.8rem"}}>More than</span>
-                            <span className="primaryText" style={{lineHeight:1}}>One</span>
+                            <span className="primaryText" style={{lineHeight:1}}>2</span>
                         </div>
                         <div className="secondaryText">
-                            <p>Year Experience</p>
-                            <p>MERN Stack / Full Stack Developer</p>
+                            <p>Years Experience as</p>
+                            <p>MERN Stack Developer</p>
                         </div>
 
                     </motion.div>

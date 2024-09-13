@@ -5,35 +5,29 @@ import { SiFirebase } from "react-icons/si";
 
 export const projectExperience = [
   {
-    name: "Real React Applications",
-    projects: "3+",
+    name: "React Applications",
+    projects: "20+",
     icon: FaReact,
     bg: "#286F6C",
   },
   {
     name: "Test Websites in React.Js",
     projects: '30+',
-    message: "( visit here my Github repositories)",
+    message: "( Click here to visit my Github repositories)",
     icon: CgWebsite,
     bg: "#EEC048",
-  },
-  {
-    name: "React Applications with Firebase",
-    projects: '1+',
-    icon: SiFirebase,
-    bg: "#F26440",
-  },
+  }
 ];
 
 export const workExp = [
   {
     company: "GlowingSoft Technologies",
     place: "Lahore, Punjab, Pakistan",
-    tenure: "Jan 2024 - Present",
+    tenure: "SEP 2023 - Present",
     totalTime: "(2 Months)",
-    role: "Full Stack Developer",
+    role: "MERN Stack Developer",
     detail:
-      " During my tenure, I actively contributed to projects leveraging these technologies, demonstrating my proficiency in building dynamic user interfaces with React, implementing server-side logic using Node.js and Express.js, and managing data storage with MongoDB and Firebase. My experience in the MERN stack has equipped me with a solid foundation in full-stack development, allowing me to effectively collaborate on multifaceted projects and deliver high-quality solutions.",
+      " During my tenure, I actively contributed to projects leveraging these technologies, demonstrating my proficiency in building dynamic user interfaces with React, implementing server-side logic using Node.js and Express.js, and managing data storage with MongoDB and Firebase. My experience in the MERN stack has equipped me with a solid foundation in web development, allowing me to effectively collaborate on multifaceted projects and deliver high-quality solutions.",
   },
   {
     company: "Global Scope Developers",
@@ -42,7 +36,7 @@ export const workExp = [
     totalTime: "(1 Year 2 Months)",
     role: "Full Stack Developer",
     detail:
-      "In my role as a MERN Stack Developer, I Architecting and implementing dynamic web solutions, leveraging MERN stack expertise to drive successful project outcomes. Meticulously designing MongoDB databases and crafting engaging React-based user interfaces, ensuring optimal user experiences.",
+      "In my role as a Full Stack Developer, I Architecting and implementing dynamic web solutions, leveraging Full stack expertise to drive successful project outcomes. Meticulously designing MongoDB databases, Firebase for user authentication and crafting engaging React-based user interfaces, ensuring optimal user experiences.",
   },
   {
     company: "Orbix Technologies",

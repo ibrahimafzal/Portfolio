@@ -5,6 +5,8 @@ import { fadeIn, staggerChildren } from "../../utils/motion"
 import ShowCase1 from "../../imgs/w1.png"
 import ShowCase2 from "../../imgs/w2.png"
 import ShowCase3 from "../../imgs/w3.png"
+import ShowCase4 from "../../imgs/w4.png"
+import ShowCase5 from "../../imgs/w5.png"
 
 const Portfolio = () => {
     return (
@@ -35,13 +37,20 @@ const Portfolio = () => {
                 {/* images */}
                 <div className={`flexCenter ${css.showCase}`}>
                     <a href="https://app.ace-academy.nl" target='_blank' rel='noreferrer noopener'>
-                        <motion.img variants={fadeIn("up", "tween", 0.5, 0.6)} src={ShowCase1} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                        <motion.img variants={fadeIn("up", "tween", 0.5, 0.6)} src={ShowCase1} alt="ACE-Academy" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
                     </a>
                     <a href="https://dev.agilityup.ai/" target='_blank' rel='noreferrer noopener'>
-                        <motion.img variants={fadeIn("up", "tween", 0.7, 0.6)} src={ShowCase2} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                        <motion.img variants={fadeIn("up", "tween", 0.7, 0.6)} src={ShowCase2} alt="AgilityUp" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
                     </a>
                     <a href="">
-                        <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase3} alt="project" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                        <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase3} alt="Fri-Chicks" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                    </a>
+                    <a href="">
+                        <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase4} alt="Numylo" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
+                    </a>
+
+                    <a href="">
+                        <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} src={ShowCase5} alt="" style={{ width: "100%", borderRadius: "20px", height: "20rem" }} />
                     </a>
                 </div>
             </div>

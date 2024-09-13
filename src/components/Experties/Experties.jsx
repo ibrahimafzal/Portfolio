@@ -30,7 +30,7 @@ const Experties = () => {
                                     <div className=''>
                                         <span>{exp.name}</span>
                                         <a href="https://github.com/ibrahimafzal" style={{ color: "black", textDecoration: "none" }} target='blank' title='Click to visit'>
-                                            <p>{exp.projects} <span style={{color:"#6633FF", textDecoration:"underline", fontSize:"0.7rem"}}>{exp.message}</span></p>
+                                            <p>{exp.projects} <span style={{color:"gray", textDecoration:"underline", fontSize:"0.9rem"}}>{exp.message}</span></p>
                                         </a>
                                     </div>
                                 </motion.div>
@@ -46,7 +46,7 @@ const Experties = () => {
                     <div>
                         <p className='secondaryText'>
                             I will help you with problem-solving and creating efficient, user-friendly web applications. I have much experience in making an attractive and responsive websites
-                            with <a href="#skills" style={{ color: "orange" }} title="Click it here to view my skills">My Skills</a>.
+                            with <a href="#skills" style={{ color: "orange" }} title="Click here to review my skills">My Skills</a>.
                         </p>
                         <p className='secondaryText'>
                             I am always looking to learn new technologies and stay ahead of the curve. I am a team player,
@@ -55,13 +55,13 @@ const Experties = () => {
                     </div>
                     <div className={`flexCenter ${css.stats}`}>
                         <div className={`flexCenter ${css.stat}`}>
-                            <span className='primaryText'>3+</span>
+                            <span className='primaryText'>15+</span>
                             <span className='secondaryText'>Projects completed</span>
                         </div>
-                        <div className={`flexCenter ${css.stat}`}>
+                        {/* <div className={`flexCenter ${css.stat}`}>
                             <span className='primaryText'>3+</span>
                             <span className='secondaryText'>Happy Clients</span>
-                        </div>
+                        </div> */}
                     </div>
                 </motion.div>
             </div>

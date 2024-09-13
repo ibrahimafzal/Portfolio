@@ -23,7 +23,7 @@ const Skills = () => {
         <div className={`flexCenter cssheading`}>
           <span className="primaryText">My Skills</span>
           <p style={{ marginTop: "2rem" }}>
-            I've about <strong>more than 1</strong> Year experience as a <b> MERN Stack / Full Stack Developer </b> using various technologies which are showing below.
+            I've about <strong>more than 2</strong> Years of experience as a <b> MERN Stack Developer </b> using various technologies which are showing below.
           </p>
         </div>
 
